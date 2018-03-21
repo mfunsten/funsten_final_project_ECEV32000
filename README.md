@@ -6,10 +6,10 @@ How to run in brief using files in github:
 Run plate_reader_conversion.ipynb in jupyter notebook using the line
 bind_dict_to_sample('output_txt_file.txt', 'automated_ELISA_template.csv', 'ELISA_data.csv', 2, 3, 3)
 
+Analyze data with R using the line
+analyze_elisa("post_python_file.csv", "R_output.csv", "standard_curve.pdf")
 
-
-
-
+Output files will be added to your working directory.
 
 Summary: 
 
