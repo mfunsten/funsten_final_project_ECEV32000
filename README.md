@@ -1,7 +1,7 @@
 # funsten_final_project_ECEV32000
 Matt Funsten- 03/20/2018
 
-How to run in brief using files in github:
+How to run in brief using template files in github:
 
 Run plate_reader_conversion.ipynb in jupyter notebook using the line
 bind_dict_to_sample('output_txt_file.txt', 'automated_ELISA_template.csv', 'ELISA_data.csv', 2, 3, 3)
