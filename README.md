@@ -1,6 +1,16 @@
 # funsten_final_project_ECEV32000
 Matt Funsten- 03/20/2018
 
+How to run in brief using files in github:
+
+Run plate_reader_conversion.ipynb in jupyter notebook using the line
+bind_dict_to_sample('output_txt_file.txt', 'automated_ELISA_template.csv', 'ELISA_data.csv', 2, 3, 3)
+
+
+
+
+
+
 Summary: 
 
 The VerMax Spectrophotometer is a critical machine for many experiments including ELISA's which determine the concentration of a particular product in solution.  Unfortunately, the machine's text file output is difficult to work with and neccessitates assigning data manually to sample ID's and conditions from experiments which is quite time consuming.  Furthermore, analysis of ELISA data, once in a usable format, is also quite time consuming.  Therefore each of these processes would benefit from automation which is achieved by the two programs in the repository, plate_reader_conversion.ipynb and OD_to_concentration.R which are described in further detail below.  Overall the two programs convert VersaMax 96 well Spectrophotometer text files into a dictionary format, assign recorded values from the plate reader to sample ID's in a user generated csv file, and then conerts the raw OD 450 values to concentrations in pg/mL using a standard curve.  Final outputs from the programs include a csv file with non-transformed data, a csv file with transformed data, and a standard curve graph with experimental samples plotted.  
